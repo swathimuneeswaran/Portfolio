@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swathi Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -11,13 +12,14 @@
 <body>
     
     <header class="header">
-        <a href="#home" class="logo">Swathi</a>
+        <a href="#home" class="logo">Swathi Muneeswaran</a>
     
         <box-icon name='menu' id="menu-icon"></box-icon>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about" >About</a>
+            <a href="#skills" >Skills</a>
             <a href="#services">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -25,7 +27,7 @@
 
     <section class="home" id="home">
         <div class="home-img">
-            <img src="./img/new passport size photo.jpg"  alt="">
+            <img src="./img/blue.jpg"  alt="">
         </div>
         <div class="home-content">
             <h2>I'm <span>Swathi</span></h2>
@@ -53,7 +55,79 @@
                      <!-- <a href="#" class="btn">Read More</a> -->
         </div>
         <div class="about-img">
-            <img src="./img/new passport size photo.jpg" width="200px"  alt="">
+            <img src="./img/blue.jpg" width="200px"  alt="">
+        </div>
+    </section>
+
+
+    <section class="skill">
+        <div class="container1" id="skills">
+            <h2 class="heading1">My<span>Skills</span></h2>
+            <div class="resume">
+              <button class="cv" >  <a href="https://drive.google.com/file/d/1wW7WTpgjFfhiQ4lzn7iqvbUIq9do5JEp/view?usp=sharing" >Download CV</a></button>
+            </div>
+          
+            <div class="Technical-bars">
+                <div class="bar"><i style="color:#c95d2e"class='bx bxl-html5'></i><span class="ht">HTML</span>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar"><i style="color:#147bbc" class='bx bxl-css3'></i><span class="ht">CSS</span>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar"><i style="color:#b0bc1e" class='bx bxl-javascript'></i> <span class="ht">JavaScript</span>
+                    <div class="info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar"><i style="color:#147bbc" class='bx bxl-react'></i><span class="ht">Reactjs</span>
+                    <div class="info">
+                        <span>React</span>
+                    </div>
+                    <div class="progress-line react">
+                        <span></span>
+                    </div>
+                </div>
+
+
+                <div class="bar"><i  style="color:#3C873A" class='bx bxl-nodejs'></i><span class="ht">Nodejs</span>
+                    <div class="info">
+                        <span>Nodejs</span>
+                    </div>
+                    <div class="progress-line node">
+                        <span></span>
+                    </div>
+                </div>
+
+
+                <div class="bar"><i style="color:#3C873A" class='bx bxl-mongodb'></i><span class="ht">Mongodb</span>
+                    <div class="info">
+                        <span>Mongodb</span>
+                    </div>
+                    <div class="progress-line Mongo">
+                        <span></span>
+                    </div>
+                </div>
+
+                
+            </div>
+
+           
         </div>
     </section>
 
@@ -62,21 +136,23 @@
         <div class="services-container">
             <div class="service-box">
                 <div class="service-info">
-                    <h4>Url Shortener</h4>
+                    <h4>Chat Application</h4>
                     <ul>
-                    <li><p>I used React as the front-end library for building the Url Shortener app due to its simplicity, component-based architecture, and strong community support.</p></li>
+                    <li><p>I used React as the front-end library for building the Chat Application </p></li>
                     <!-- <p>I utilized Create React App to bootstrap the project quickly and set up the initial project structure, saving time and effort.</p> -->
-                    <li><p>Node.js was used to run JavaScript on the server side, and npm (Node Package Manager) was used to manage project dependencies.</p></li>
+                    <li><p>Node.js was used to run JavaScript on the server side, and npm (Node Package Manager) was used to manage project dependencies. I have implemented Socket</p></li><br>
+                    <li><a href="https://chat-appication.onrender.com" target="_blank" class="live_demo">Live Demo:https://chat-appication.onrender.com</a></li>
                     </ul>
                 </div>
             </div>
 
             <div class="service-box">
                 <div class="service-info">
-                    <h4>Todo App</h4>
+                    <h4>Amazon Clone</h4>
                     <ul>
-                    <li><p>I used React as the front-end library for building the ToDo app due to its simplicity, component-based architecture, and strong community support.</p></li>
-                    <li><p>I utilized Create React App to bootstrap the project quickly and set up the initial project structure, saving time and effort.</p></li>
+                    <li><p>I used React as the front-end library for building the Amazon Replica.</p></li>
+                    <li><p>For deployment and database management, I integrated Firebase into the project. And Im currently doing this project.  </p></li><br>
+                    <li><a href="https://challenge-41b28.web.app/" target="_blank" class="live_demo">Live Demo:https://challenge-41b28.web.app/</a></li>
                 </ul>
                 </div>
             </div>
@@ -85,12 +161,14 @@
                 <div class="service-info">
                     <h4>Expense Management</h4>
                     <ul>
-                    <li><p>I used React as the front-end library for building the Expense Management app due to its simplicity, component-based architecture, and strong community support.</p></li>
-                    <li><p>I utilized Create React App to bootstrap the project quickly and set up the initial project structure, saving time and effort.</p></li>
+                    <li><p>I used React as the front-end library for building the Expense Management app due to its simplicity.</p></li>
+                    <li><p>I have used Charts to display the Incomes and Expenses</p></li>
+                    <li><a href="https://income-expense-trackingapp.onrender.com" target="_blank" class="live_demo">Live Demo:https://income-expense-trackingapp.onrender.com</a></li>
                     </ul>
                     
                 </div>
             </div>
+
 
         </div>
     </section>
@@ -110,7 +188,7 @@
                 <input type="text" placeholder="Subject">
                 
             </div>
-            <textarea name="" id=""  cols="30" rows="10" placeholder="Message"></textarea>
+            <textarea name="" id=""  cols="30" rows="10" placeholder="Message" class="text"></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
 
@@ -144,5 +222,6 @@
             <p class="copyright">© Swathi | All Rights Reserved </p>
         </footer>
     <script src="script.js"></script>
+   
 </body>
 </html>
