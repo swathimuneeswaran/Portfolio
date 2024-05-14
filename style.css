@@ -236,23 +236,23 @@ span.ht::first-letter {
 }
 
 .progress-line.html span {
-  width: 90%;
+  width: 80%;
 }
 
 .progress-line.css span {
-  width: 90%;
+  width: 80%;
 }
 
 .progress-line.javascript span {
-  width: 90%;
+  width: 80%;
 }
 
 .progress-line.react span {
-  width: 90%;
+  width: 80%;
 }
 
 .progress-line.node span {
-  width: 90%;
+  width: 80%;
 }
 
 .progress-line.Mongo span {
